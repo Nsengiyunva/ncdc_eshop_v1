@@ -1,0 +1,30 @@
+{
+  "short_name": "NCDC E-Shop",
+  "name": "NCDC E-Shop — National Curriculum Development Centre",
+  "lang": "en",
+  "dir": "ltr",
+  "description": "The official government-approved online store for educational materials from the National Curriculum Development Centre.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#008000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

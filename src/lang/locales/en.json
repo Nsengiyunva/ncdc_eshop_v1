@@ -1,0 +1,209 @@
+{
+  "selectLanguage": "Select Language",
+  "contactUs": "Contact Us",
+  "emailUs": "Email Us",
+  "english": "English",
+  "swahili": "Swahili",
+  "luganda": "Luganda",
+  "runyankole": "Runyankole",
+  "verifyPrompt": "Your account email is not yet verified. Some services will be limited until verification is complete.",
+  "clickToVerify": "Click here to resend verification link",
+  "sendingEmail": "Sending email...",
+  "searchPlaceholder": "Search for product or service",
+  "search": "Search",
+  "home": "Home",
+  "myAccount": "My Account",
+  "orders": "Orders",
+  "purchases": "Purchases",
+  "savedItems": "Saved Items",
+  "logout": "Logout",
+  "siteLogoAlt": "National Curriculum E-Shop logo",
+  "noResultsFound": "No products found matching your search.",
+  "submitRequestMessage": "Didn't find what you're looking for?",
+  "contactSupport": "Submit a request",
+  "loginRegister": "Login / Register",
+  "loginTitle": "Login to Your Account",
+  "email": "Email Address",
+  "password": "Password",
+  "login": "Login",
+  "loggingIn": "Logging in...",
+  "createAccount": "Create new account",
+  "forgotPassword": "Forgot Password?",
+  "required": "Required",
+  "enterValidEmail": "Enter a valid email",
+  "passwordRequirements": "Password must include one uppercase, one lowercase, one digit, and one special character (!@#$%^&*()).",
+  "fullName": "Full Name",
+  "emailAddress": "Email Address",
+  "phoneNumber": "Phone Number",
+  "enterValidPhone": "Enter a valid phone number (e.g. +256 712 345678)",
+  "enterPassword": "Enter your password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "passwordHint": "Must include one uppercase, one lowercase, one number and one special character (!@#$%^&*()).",
+  "register": "Register",
+  "registering": "Registering...",
+  "loginInstead": "Already have an account? Login",
+  "registerTitle": "Register free account",
+  "createAccountHeading": "Create Your National Curriculum Account",
+  "tinPrompt": "To continue, please confirm whether you have a valid Tax Identification Number (TIN) registered with URA.",
+  "iHaveTin": "I have a TIN",
+  "iDontHaveTin": "I don’t have a TIN",
+  "legalNotice1": "By continuing, you acknowledge that you are registering on an official platform operated by the National Curriculum Development Centre (NCDC).",
+  "legalNotice2": "All information submitted must be accurate and verifiable. Submitting false or misleading information may lead to disqualification or legal consequences.",
+  "backToOptions": "Back to registration options",
+  "enterTINLabel": "Enter your 10-digit TIN",
+  "tinTooltip": "A TIN (Tax Identification Number) is a 10-digit number issued by the Uganda Revenue Authority (URA) to identify taxpayers.",
+  "verifyAndContinue": "Verify TIN & Continue",
+  "verifying": "Verifying",
+  "tinMustBe10Digits": "TIN must be 10 digits",
+  "viewMore": "View more",
+  "noProductsAvailable": "No products available",
+  "currency": "UGX",
+  "shopNow": "Shop Now",
+  "accountOverview": "Account Overview",
+  "editProfile": "Edit Profile",
+  "personalDetails": "Personal Details",
+  "name": "Name",
+  "phone": "Phone Number",
+  "tin": "TIN Number",
+  "notProvided": "Not provided",
+  "transactionSummary": "Transaction Summary",
+  "wishlist": "Wishlist",
+  "submit": "Submit",
+  "invalidPhone": "Enter a valid phone number",
+  "products": "Products",
+  "services": {
+    "title": "Services",
+    "bids": "Bids",
+    "bookEvaluation": "Book Evaluation"
+  },
+  "bids": "Bids",
+  "bookEvaluation": "Book Evaluation",
+  "latestProducts": "Latest Products",
+  "nav": {
+    "cart": "Cart",
+    "payment": "Payment",
+    "home": "Home"
+  },
+  "payment": {
+    "title": "Generate a Payment Slip",
+    "description": "This functionality will enable you to obtain a payment registration number (PRN) you will present to the bank or quote on Mobile Money or online bank when making a payment.",
+    "info": "A PRN is a unique reference number issued by URA (Uganda Revenue Authority) used to process your payment securely.",
+    "generate": "Generate PRN",
+    "queued": "PRN generation is taking longer than expected. It has been queued in the background. You may continue using the platform.",
+    "queueMessage": "PRN request is queued. We'll notify you once it's ready.",
+    "prnSuccess": "Your PRN is ready:",
+    "prnReady": "Your PRN has been generated successfully. Proceed with payment.",
+    "selectMethod": "Please select a payment method",
+    "method": {
+      "mobileMoney": "Mobile/Airtel Money",
+      "visa": "Visa",
+      "manualBank": "Manual Bank"
+    }
+  },
+  "cart": "Cart",
+  "cartTitle": "Cart",
+  "cartEmptyTitle": "Your Cart is empty",
+  "cartEmptyMessage": "Browse products to get the best deals.",
+  "goToProducts": "Go to Products",
+  "suggestedProducts": "You might be interested in",
+
+  "checkout": "Checkout",
+  "checkoutTitle": "Checkout",
+  "checkoutInstructions": "Please confirm your order and contact details before continuing.",
+  "yourDetails": "Your Contact Details",
+
+  "date": "Date",
+  "orderSummary": "Order Summary",
+  "dataNotice": "Ensure your contact information is accurate. This will be used to confirm your purchase.",
+  "legalDisclaimer": "By proceeding, you agree that all information provided is correct and verifiable. Misuse of this platform may lead to disqualification or legal action under applicable Ugandan laws.",
+  "govNotice": "This platform is maintained by the National Curriculum Development Centre (NCDC), and adheres to national e-commerce and data protection standards.",
+  "visa": {
+    "intro": "All VISA card transactions are processed securely via",
+    "securityNote": "This ensures your payment is handled with integrity, safety, and in compliance with national e-payment standards.",
+    "confirmationNote": "Your payment will be processed securely through GTBank. Should you have any questions, contact our official support channel.",
+    "preparationNote": "Please ensure your Visa card details are available before continuing with payment.",
+    "generateLink": "Generate Secure Payment Link",
+    "payNow": "Proceed to Pay",
+    "waiting": "Please wait..."
+  },
+  "navigation": {
+    "menu": "Menu"
+  },
+  "account": {
+    "myAccount": "My Account",
+    "wishlist": "Wishlist",
+    "orders": "Orders",
+    "cart": "My Cart",
+    "signOut": "Sign out"
+  },
+  "auth": {
+    "loginRegister": "Login / Register"
+  },
+  "helpCenter": {
+    "title": "Help Center",
+    "heading": "How can we assist you?",
+    "intro": "Browse help topics, find quick answers, or contact our support team for further assistance.",
+    "search": "Search the help center",
+    "searchPlaceholder": "Type your question here...",
+    "results": "Search Results",
+    "stillNeedHelp": "Still need help? Contact us directly.",
+
+    "sections": {
+      "categories": "Common Topics",
+      "status": "System Status",
+      "contact": "Need More Support?"
+    },
+
+    "categories": {
+      "account": "Account & Login",
+      "orders": "Orders & Delivery",
+      "payments": "Payments & PRNs"
+    },
+
+    "questions": {
+      "createAccount": "How do I create an account?",
+      "resetPassword": "I forgot my password. What should I do?",
+      "verifyEmail": "Why do I need to verify my email?",
+      "trackOrder": "How can I track my order?",
+      "refund": "How do refunds work?",
+      "cancelOrder": "Can I cancel my order?",
+      "generatePRN": "How do I generate a PRN?",
+      "paymentFailed": "My payment failed. What should I do?",
+      "invoice": "How can I download my invoice?"
+    },
+
+    "systemStatus": "All systems are operational. There are no known issues at this time."
+  },
+  "bidsPage": {
+    "title": "Bids",
+    "activeBids": "Active Government Bids",
+    "openingDate": "Opening Date",
+    "closingDate": "Closing Date",
+    "viewDetails": "View Details",
+    "noBidsAvailable": "No bids are available at this time."
+  },
+  "footer": {
+    "help": "Let us help you",
+    "helpCenter": "Help Center",
+    "howToBuy": "How to buy on NCDC E-Shop",
+    "contact": "Contact us",
+    "reportProduct": "Report a Product",
+    
+    "about": "About NCDC E-Shop",
+    "ipr": "IPR Protection Policy",
+    "dispute": "Dispute Resolution Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+
+    "payments": "Payment Methods",
+
+    "follow": "Follow us",
+
+    "rights": "All Rights Reserved | Property of the National Curriculum Development Centre",
+    "eshopName": "NCDC E-Shop Services",
+    "dataProtection": "Data Protected by NITA Uganda in relation to the Data Protection and Privacy Act, 2019",
+
+    "integrations": "Integrated With"
+  }
+}
