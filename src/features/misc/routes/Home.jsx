@@ -28,7 +28,7 @@ export const Home = () => {
             <div className="">
               <TrendingItems />
             </div>
-            <div>{/* <MostViewed /> */} </div>
+            <div></div>
           </div>
         </MainLayout>
       </div>

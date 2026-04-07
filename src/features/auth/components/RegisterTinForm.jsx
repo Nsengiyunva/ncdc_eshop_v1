@@ -42,15 +42,14 @@ export const RegisterTinForm = ({ onSuccess, details }) => {
 					values.role = 'USER';
 					values.phone_number = phone_number;
 					await register(values);
-					// console.log(values);
 					onSuccess();
 				}}
 				schema={schema}
 				options={{
 					shouldUnregister: true,
 					defaultValues: {
-						name: details?.GetClientRegistrationResponse?.GetClientRegistrationResult?.TaxPayerName,
-						email: details?.GetClientRegistrationResponse?.GetClientRegistrationResult?.TaxPayerEmail,
+						name:  details?.TaxPayerEmail,
+						email: details?.TaxPayerEmail,
 					},
 				}}>
 				{({ register, formState }) => (

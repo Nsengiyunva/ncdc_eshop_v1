@@ -3,7 +3,8 @@ import { useNotificationStore } from "stores/notifications";
 import { useMutation } from "react-query";
 
 export const checkTIN = ({ data }) => {
-  return axios.post("validate-tin", data);
+  // return axios.post("validate-tin", data);
+  return axios.get( `https://api.itco.go.ug/api/auth/tin_registration_details/${data?.tin}` )
 };
 
 export const useCheckTIN = ({ config } = {}) => {

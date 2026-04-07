@@ -3,8 +3,37 @@ import { CheckTinForm } from "./CheckTinForm";
 import { RegisterTinForm } from "./RegisterTinForm";
 import { Link, useNavigate } from "react-router-dom";
 
+let details = {
+  "ContactNumber": 256773917523,
+  "County": "NAKAWA DIVISION ",
+  "District": "KAMPALA ",
+  "ErrorCode": "E000",
+  "ErrorDesc": "SUCCESS",
+  "IsCustomsAgent": "N",
+  "IsLicenseValid": {
+      "@nil": "true"
+  },
+  "LicenseNumber": {
+      "@nil": "true"
+  },
+  "MobileNumber": 256773917523,
+  "PostalAddress": {
+      "@nil": "true"
+  },
+  "RegistrationStatus": "ACTIVE",
+  "SubCounty": "NAKAWA DIVISION",
+  "TIN": 1010968941,
+  "TaxPayerEmail": "kingbecks07@gmail.com",
+  "TaxPayerName": "Mr. KING NSENGIYUNVA ISAAC",
+  "TelephoneNumber": "00256",
+  "TypeofUser": "NON-AGENT",
+  "Village": {
+      "@nil": "true"
+  }
+}
+
 export const RegisterTin = () => {
-  const [details, setDetails] = useState();
+  const [details, setDetails] = useState( null );
   const navigate = useNavigate();
 
   return (
