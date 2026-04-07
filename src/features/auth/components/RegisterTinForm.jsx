@@ -12,7 +12,7 @@ import { z } from 'zod';
 
 export const RegisterTinForm = ({ onSuccess, details }) => {
 	const { register, isRegistering } = useAuth();
-	const [phone_number, setPhone_number] = useState('');
+	const [phone_number, setPhone_number] = useState( '');
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
