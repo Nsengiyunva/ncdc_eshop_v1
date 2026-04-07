@@ -58,7 +58,7 @@ export const RegisterTin = () => {
             to="/auth/login"
             className="font-medium text-green-600 hover:text-green-500"
           >
-            Login instead
+            Login please
           </Link>
         </div>
       </div>
