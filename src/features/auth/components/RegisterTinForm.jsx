@@ -18,6 +18,13 @@ export const RegisterTinForm = ({ onSuccess, details }) => {
 		window.scrollTo(0, 0);
 	}, []);
 
+	useEffect( () => {
+		if( details )  {
+			let phone = details?.ContactNumber?.toString().replace("256", "")
+			setPhone_number( phone )	
+		}
+	}, [ details ])
+
 	const schema = z.object({
 		name: z.string().min(2, 'Name must be at least 2 characters').max(50),
 		email: z.string().email('Invalid email format'),
@@ -48,7 +55,7 @@ export const RegisterTinForm = ({ onSuccess, details }) => {
 				options={{
 					shouldUnregister: true,
 					defaultValues: {
-						name:  details?.TaxPayerEmail,
+						name:  details?.TaxPayerName,
 						email: details?.TaxPayerEmail,
 					},
 				}}>

@@ -8,6 +8,7 @@ export const checkTIN = ({ data }) => {
 };
 
 export const useCheckTIN = ({ config } = {}) => {
+  
   const { addNotification } = useNotificationStore();
 
   return useMutation({
@@ -19,5 +20,5 @@ export const useCheckTIN = ({ config } = {}) => {
     },
     ...config,
     mutationFn: checkTIN,
-  });
-};
+  })
+}
